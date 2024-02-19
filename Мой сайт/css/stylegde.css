@@ -1,0 +1,217 @@
+body{
+    background-color: black;
+}
+.conteiner{
+    max-width: 1920px;
+    margin: 0 auto; 
+}
+.verch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.logo{
+    border-radius: 15px;
+}
+.nazvanie{
+    margin-left: 50px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 10px;
+}
+.punkt{
+    padding: 15px 35px 15px 35px;
+    border: red solid 3px;
+    color: red;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.punkt:hover{
+    background-color: red;
+    color: black;
+}
+.slogan3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 100px;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.karti{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+.karti2{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    display: none;
+}
+.slogan1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 70px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.dopolnitelno{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+.dopolnenia{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gruppa{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.ssilki{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 35px 15px 35px;
+    border: black solid 3px;
+}
+.ssilki:hover{
+    border: red solid 3px;
+}
+.prava{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 15px 35px 15px 35px;
+    border: black solid 3px;
+    text-align: center;
+}
+@media (max-width: 768px){
+    .menu{
+        margin-left: 0px;
+    }
+    .punkt{
+        padding: 15px 35px 15px 35px;
+        font-size: 17px;
+    }
+    .slogan3{
+        font-size: 50px;
+    }
+    .karti{
+        display: none;
+    }
+    .karti2{
+        display: flex;
+    }
+    .slogan1{
+        font-size: 35px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .dopolnitelno{
+        gap: 20px;
+    }
+    .gruppa{
+        font-size: 20px;
+    }
+    .ssilki{
+        font-size: 15px;
+        padding: 7.5px 17.5px 7.5px 17.5px;
+    }
+    .prava{
+        font-size: 15px;
+        padding: 7.5px 17.5px 7.5px 17.5px;
+    }
+}
+@media (max-width: 576px){
+    .logo{
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .nazvanie{
+        margin-left: 50px;
+        font-size: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .punkt{
+        padding: 10px 30px 10px 30px;
+        font-size: 15px;
+        border: red solid 1px;
+    }
+    .slogan3{
+        font-size: 37px;
+    }
+    .slogan1{
+        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .dopolnitelno{
+        gap: 20px;
+    }
+    .gruppa{
+        font-size: 20px;
+    }
+    .ssilki{
+        font-size: 15px;
+        padding: 7.5px 17.5px 7.5px 17.5px;
+    }
+    .prava{
+        font-size: 15px;
+        padding: 7.5px 17.5px 7.5px 17.5px;
+    }
+}
+@media (max-width: 378px){
+    .logo{
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    .nazvanie{
+        margin-left: 15px;
+        font-size: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .punkt{
+        padding: 5px 15px 5px 15px;
+        font-size: 12px;
+        border: red solid 1px;
+    }
+    .slogan3{
+        font-size: 25px;
+    }
+    .slogan1{
+        font-size: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
